@@ -6,7 +6,7 @@ function Clock() {
   useEffect(() => {
     setInterval(() => {
       setTime(new Date());
-    }, 1000);
+    }, 2000);
   }, []);
 
   return <div>{time.toString()}</div>;
